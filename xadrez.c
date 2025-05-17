@@ -1,32 +1,142 @@
 #include <stdio.h>
+//ala dos recursivos
+void bispo-mov(int mov){
+   for(int v=1,h=0;
+mov> 0;mov--,v++){
+    printf("Cima");
+    While(h < V )
+    {
 
-// Desafio de Xadrez - MateCheck
-// Este código inicial serve como base para o desenvolvimento do sistema de movimentação das peças de xadrez.
-// O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
+printf("Direita\n");
+                    h++;
 
-int main() {
-    // Nível Novato - Movimentação das Peças
-    // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
+                   {
+                
+              {
+        
+        {
+void torre-mov(int mov){
+    if (mov > 0 ){
+        printf("Frente\n");
 
-    // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+        torre-mov(mov -1);
+     {
+ {
+void rainha-mov(int mov){
+    inf(mov > 0){
+        printf( 
+"Esquerda\n");
+       rainha-mov(mov-1);
 
-    // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
+        }
 
-    // Implementação de Movimentação da Rainha
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+    }
 
-    // Nível Aventureiro - Movimentação do Cavalo
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
+    int main(){
 
-    // Nível Mestre - Funções Recursivas e Loops Aninhados
-    // Sugestão: Substitua as movimentações das peças por funções recursivas.
-    // Exemplo: Crie uma função recursiva para o movimento do Bispo.
+        // 
 
-    // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
-    // Inclua o uso de continue e break dentro dos loops.
+    DECLARAÇAÔ DAS VARIAVEIS
+         int torre, bispo,rainha;
 
-    return 0;
+         //INTRO AO JOGO
+         printf("============
+====================\n");
+
+printf("CHESS v1.1 by MADE Check\n");
+
+printf("============
+===================\n\n");
+
+      // ENTRADA DOS DADOS
+      printf("QUAntas casa a TORRE deve andar?\n");
+
+      scanf("%i", &rainha);
+      printf("QUAntas casas o BISPO deve andar?\n");
+      scanf("%i", &bispo);
+
+      //MOVIMENTO DA TORRE
+      printf("\tRAINHA\n");
+      rainha-mov(rainha);
+
+      //MOVIMENTO DO BISPO
+      printf ("\tBISPO\n");
+      bispo-mov (bispo);
+
+      // MOVIMENTO DO CAVALO
+      printf("\tCAVALO\n");
+      int MOVCAVALOH,
+    MovCAVALOV;
+          //p onde o cavalo vai
+          printf("CAVALO SObe ou desce?
+    \n1-SOBE,\n2-DESCE\n");
+       scanf("%i",&MovCAVALOV);
+       printf("CAVALO direita ou esquerda?
+        \n1-DIREITA,
+        \n2-ESQUERDA\n");
+        scan("%i",&
+    MOvCAVALOH);
+
+    switch(MovCAVALOV)//
+    começa o mov do MovCAVALo
+        {
+        case 1:
+            FOR (int mov =0
+        ;mov < 1; mov++){
+                  for (int sobe =0; sobe < 3; sobe++)
+                                           {
+
+
+                                               if(sobe==2) break;
+
+                                               printf("CIMA\n");
+      
+                                           
+
+                                           }
+                                           MOvaCAVALOH==
+                    1? printf("DIREITA\n"):
+                    printf("ESQUERDA\n");
+
+                                        }
+                                        break;
+                        case 2:
+                        for (int mov = 0; mov < 1; mov++){
+                                 for (int desce=0;<2;desce++)                                             
+                                              {
+                                                 printf("BAIXO\n");
+    
+                                                                {
+                                                                MOvCAVALOH==1
+                                                            ?printf("DIREITA\n"):
+                                                            printf("ESQUERDA\n");
+                                                                }
+                                                                      break;
+                                                                    default:
+                                                                             printf("MOVIMENTO INVÀLIDO\n");
+                                                                                      break;
+                                                                                     {// fim do movimento do cavalo
+
+
+                                                                                     }
+
+    
+    
+
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+
+    
+    
+
+    
 }
